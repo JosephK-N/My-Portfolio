@@ -18,7 +18,7 @@ const carouselProjects = [
     title: "AI Analytics Dashboard",
     description: "Real-time analytics portal featuring automated streaming data, user authorization, and responsive dark mode UI.",
     tags: ["Next.js", "TypeScript", "Zod", "Tailwind CSS"],
-    image: "/projects/hero.jpg",
+    image: "/projects/hero2.jpg",
     link: "https://github.com/JosephK-N",
   },
 
