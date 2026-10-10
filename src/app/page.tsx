@@ -21,16 +21,6 @@ const carouselProjects = [
     image: "/projects/ai-dashboard.png",
     link: "https://ai-analytics-dashboard-phi.vercel.app/",
   },
-
-  /*
-  {
-    id: "3",
-    title: "RESTful API Explorer",
-    description: "Interactive API testing and documentation application designed for modern web developers.",
-    tags: ["React", "TypeScript", "REST", "Tailwind CSS"],
-    image: "/projects/API.jpg",
-    link: "https://github.com/JosephK-N",
-  },*/
 ];
 
 export default function Home() {
@@ -38,9 +28,10 @@ export default function Home() {
     <div className="min-h-screen bg-slate-50 dark:bg-[#0B0F19] text-slate-900 dark:text-slate-100 font-sans selection:bg-orange-500 selection:text-white transition-colors duration-200 flex flex-col justify-between">
       <Header />
 
-      <main className="max-w-5xl mx-auto px-6 py-12 space-y-24 w-full">
+      {/* Reduced vertical spacing from space-y-24 down to space-y-12 sm:space-y-16 */}
+      <main className="max-w-5xl mx-auto px-6 py-10 space-y-12 sm:space-y-16 w-full">
         {/* HERO SECTION */}
-        <section className="text-center space-y-6 pt-4">
+        <section className="text-center space-y-6 pt-2">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 dark:bg-blue-500/10 border border-blue-200 dark:border-blue-500/20 text-blue-700 dark:text-blue-400 text-xs font-semibold">
             <span className="w-2 h-2 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-pulse" />
             Available for hire in Namibia & Remote
@@ -71,7 +62,7 @@ export default function Home() {
         </section>
 
         {/* ABOUT SECTION */}
-        <section id="about" className="space-y-8 border-t border-slate-200 dark:border-slate-800/80 pt-16">
+        <section id="about" className="space-y-6 border-t border-slate-200 dark:border-slate-800/80 pt-12">
           <div className="text-center space-y-2">
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">About Me</h2>
             <p className="text-slate-600 dark:text-slate-400 text-sm max-w-xl mx-auto">
@@ -115,7 +106,7 @@ export default function Home() {
         </section>
 
         {/* PROJECT CAROUSEL SECTION */}
-        <section id="projects" className="space-y-8 border-t border-slate-200 dark:border-slate-800/80 pt-16">
+        <section id="projects" className="space-y-6 border-t border-slate-200 dark:border-slate-800/80 pt-12">
           <div className="text-center space-y-2">
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">Featured Projects</h2>
             <p className="text-slate-600 dark:text-slate-400 text-sm max-w-xl mx-auto">
@@ -127,7 +118,7 @@ export default function Home() {
         </section>
 
         {/* CONTACT SECTION */}
-        <section id="contact" className="space-y-12 border-t border-slate-200 dark:border-slate-800/80 pt-16">
+        <section id="contact" className="space-y-8 border-t border-slate-200 dark:border-slate-800/80 pt-12">
           <div className="text-center space-y-2">
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">Get In Touch</h2>
             <p className="text-slate-600 dark:text-slate-400 text-sm max-w-xl mx-auto">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/app/globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 export const metadata: Metadata = {
   // Base URL for resolving relative image paths in Open Graph/Twitter meta tags
@@ -74,8 +75,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-brand-blue text-white selection:bg-brand-orange selection:text-white transition-colors duration-200">
-        <ThemeProvider>{children}</ThemeProvider>
+      <body className="bg-[#0B0F19] text-white selection:bg-brand-orange selection:text-white transition-colors duration-200">
+        <ThemeProvider>
+          {children}
+          <FloatingWhatsApp />
+        </ThemeProvider>
       </body>
     </html>
   );

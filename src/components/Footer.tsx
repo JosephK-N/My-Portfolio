@@ -40,6 +40,8 @@ export default function Footer() {
             </h4>
             <div className="flex flex-wrap gap-1.5 text-[11px] text-slate-600 dark:text-slate-400">
               <span className="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-800">Next.js 15</span>
+              <span className="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-800">React</span>
+              <span className="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-800">Laravel</span>
               <span className="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-800">TypeScript</span>
               <span className="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-800">Tailwind CSS</span>
               <span className="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-800">Resend</span>
@@ -51,7 +53,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-200 dark:border-slate-800/60 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500 dark:text-slate-400">
-          <p>&copy; {new Date().getFullYear()} Joseph KN. Built with Next.js & Tailwind CSS.</p>
+          <p>&copy; {new Date().getFullYear()} Joseph KN.</p>
           <div className="flex items-center gap-4 font-semibold">
             <a href="https://github.com/JosephK-N" target="_blank" rel="noreferrer" className="hover:text-orange-500 transition">
               GitHub
