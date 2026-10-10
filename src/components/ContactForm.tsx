@@ -32,7 +32,7 @@ export default function ContactForm() {
           type="email"
           name="senderEmail"
           required
-          placeholder="phosephkn@gmail.com"
+          placeholder="enter your email here..."
           className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-[#0B0F19] text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 border border-slate-300 dark:border-slate-800 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition text-sm"
         />
       </div>
@@ -45,7 +45,7 @@ export default function ContactForm() {
           name="message"
           required
           rows={4}
-          placeholder="Tell me about your project..."
+          placeholder="Enter your message here..."
           className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-[#0B0F19] text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 border border-slate-300 dark:border-slate-800 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition text-sm resize-none"
         />
       </div>

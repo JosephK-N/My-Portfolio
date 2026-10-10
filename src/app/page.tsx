@@ -10,16 +10,16 @@ const carouselProjects = [
     title: "Next.js Full-Stack Portfolio",
     description: "Personal developer portfolio built with Next.js App Router, TypeScript, Zod schema validation, and Resend API integration.",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Zod"],
-    image: "/projects/portfolio.jpeg",
-    link: "https://github.com/JosephK-N",
+    image: "/projects/Pic.jpg",
+    link: "https://my-portfolio-topaz-eight-11.vercel.app/",
   },
   {
     id: "2",
     title: "AI Analytics Dashboard",
     description: "Real-time analytics portal featuring automated streaming data, user authorization, and responsive dark mode UI.",
     tags: ["Next.js", "TypeScript", "Zod", "Tailwind CSS"],
-    image: "/projects/hero2.jpg",
-    link: "https://github.com/JosephK-N",
+    image: "/projects/ai-dashboard.png",
+    link: "https://ai-analytics-dashboard-phi.vercel.app/",
   },
 
   /*
@@ -51,7 +51,7 @@ export default function Home() {
           </h1>
 
           <p className="text-slate-600 dark:text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-            Hi, I'm <strong className="text-slate-900 dark:text-white">Joseph KN</strong>. I specialize in building fast, responsive full-stack applications with Nest.js, Next.js, TypeScript, and Tailwind CSS.
+            Hi, I'm <strong className="text-slate-900 dark:text-white">Joseph KN</strong>. I specialize in building fast, responsive full-stack applications with Laravel, React, Nest.js, Next.js, TypeScript, and Tailwind CSS.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
