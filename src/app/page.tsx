@@ -34,7 +34,7 @@ export default function Home() {
         <section className="text-center space-y-6 pt-2">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 dark:bg-blue-500/10 border border-blue-200 dark:border-blue-500/20 text-blue-700 dark:text-blue-400 text-xs font-semibold">
             <span className="w-2 h-2 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-pulse" />
-            Available for hire in Namibia & Remote
+            Full-Stack Software Engineer & IT Admin at NEHMTECH INNOVATIONS Ltd
           </div>
 
           <h1 className="text-4xl sm:text-6xl font-black tracking-tight text-slate-900 dark:text-white leading-tight max-w-3xl mx-auto">
